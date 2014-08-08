@@ -1,0 +1,55 @@
+nanny (2.31.2~boamaod3~trusty) trusty; urgency=medium
+
+  * Migrate to psutil.
+
+ -- Märt Põder <tramm@p6drad-teel.net>  Sun, 03 Aug 2014 13:02:23 +0300
+
+nanny (2.31.2~boamaod12~precise) precise; urgency=low
+
+  * Fix gl.po contents duplification
+
+ -- Guido Tabbernuk <boamaod@gmail.com>  Wed, 06 Jun 2012 01:02:40 +0300
+
+nanny (2.31.2~boamaod11~precise) precise; urgency=low
+
+  * Add fallback for close LXDE session
+  * Update fr.po and gl.po localisation files
+
+ -- Guido Tabbernuk <boamaod@gmail.com>  Tue, 05 Jun 2012 02:11:28 +0300
+
+nanny (2.31.2~boamaod10~oneiric) oneiric; urgency=low
+
+  * Fix "force logout" problem
+  * Fix calculation of time in indicator
+
+ -- Guido Tabbernuk <boamaod@gmail.com>  Sun, 03 Jun 2012 13:54:24 +0300
+
+nanny (2.31.2~boamaod9~precise) precise; urgency=low
+
+  * Fix DBus daemon settins for normal users
+  * Fix timeout button label (on second run)
+  * Fix Unity delay hack (was broken in Unity 2D)
+  * Add support for Unity 2D, GNOME, GNOME Classic, Lubuntu, LXDE
+  * Fixes for displaying data about session etc
+  * Rework systray as notification service
+  * Update translations
+
+ -- Guido Tabbernuk <boamaod@gmail.com>  Fri, 24 Feb 2012 19:40:44 +0200
+
+nanny (2.31.2~boamaod6~precise) precise; urgency=low
+
+  * This is a strictly test build.
+  * Based on git://git.gnome.org/nanny from 2011-11-09 (2.31.1)
+  * Updated source is at git://github.com/boamaod/nanny.git
+  * Make it work on Ubuntu Oneiric
+  * Create chores system
+  * Implement admin button for adding "extra time for today"
+  * Enhance the session/desktop blocking routines
+  * Enhance some data entry dialogs
+  * Some Debian packaging fixes
+  * Add Estonian translation
+  * Systray and application blocking still not fixed
+  * Web filtering seems to work, however importing blacklist
+    may be not so self-evident
+
+ -- Guido Tabbernuk <boamaod@gmail.com>  Mon, 23 Jan 2012 04:03:56 +0200
